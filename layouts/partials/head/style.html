@@ -1,0 +1,4 @@
+{{ $options := (dict "includePaths" (slice "node_modules")) }} 
+{{ $sass := resources.Get "scss/style.scss" }}
+{{ $style := $sass | resources.ToCSS $options | minify | resources.Fingerprint "sha256" }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">

@@ -14,11 +14,14 @@ nbproject/
 .hugo_build.lock
 
 public/*
-
-resources/_gen/*
+resources/*
 
 static/*
 !static/.gitkeep
 
 # Data Packs
 static/data1
+
+# Libraries
+node_modules
+package-lock.json

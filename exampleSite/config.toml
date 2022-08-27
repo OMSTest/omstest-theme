@@ -1,12 +1,18 @@
-baseurl = "https://example.com"
+baseurl = "/"
 languageCode = "en-us"
-theme = "omstest-theme"
 paginate = 5
 title = "Example Site"
 disqusShortname = "omstest-theme"
 DefaultContentLanguage = "en"
 hasCJKLanguage = false
 googleAnalytics = ""
+
+[module]
+[module.hugoVersion]
+[[module.imports]]
+# This is replaced in go.mod to point to the directory above.
+path="github.com/OMSTest/omstest-theme"
+
 
 [languages.en]
   languageName = "English"

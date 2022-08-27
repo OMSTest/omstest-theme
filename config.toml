@@ -4,6 +4,10 @@
     extended = true
     min = "0.87.0"
 
+  [[module.mounts]]
+    source = 'assets'
+    target = 'assets'
+
 [params]
   mainSections = ["post"]
   featuredImageField = "image"
@@ -137,4 +141,3 @@
 
     [params.imageProcessing.content]
       enabled = true
-

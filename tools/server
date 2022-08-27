@@ -16,6 +16,9 @@ port="${1:-1715}" # default
 #    HUGO_MODULE_REPLACEMENTS="${HUGO_MODULE_REPLACEMENTS}${mod} -> $(echo "${mod}" | cut -d/ -f3)"
 #done
 #export HUGO_MODULE_REPLACEMENTS
+#--themesDir=../..
+
+
 
 cd exampleSite
 
@@ -25,5 +28,5 @@ hugo server \
      --navigateToChanged \
      --gc \
      --verbose \
-     --port "${port}" \
-     --themesDir=../..
+     --port "${port}" 
+     

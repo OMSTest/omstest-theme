@@ -1,3 +1,11 @@
+
+{{ $script := resources.Get "libs/admin-lte/plugins/jquery/jquery.min.js" }}
+<script type="text/javascript" src="{{ $script.RelPermalink }}" defer></script>
+
+
+{{ $script := resources.Get "libs/admin-lte/plugins/bootstrap/js/bootstrap.bundle.min.js" | js.Build  (dict "sourcemap" "inline" ) }}
+<script type="text/javascript" src="{{ $script.RelPermalink }}" defer></script>
+
 {{ partial "helper/external" (dict "Context" . "Namespace" "Vibrant") }}
 
 {{ $opts := dict "targetPath" "main.js" }}
@@ -5,10 +13,9 @@
 <script type="text/javascript" src="{{ $built.RelPermalink }}" defer></script>
 
 
-{{ $opts := dict "minify" hugo.IsProduction }}
-{{ $script := resources.Get "ts/main.ts" | js.Build $opts }}
-
-<script type="text/javascript" src="{{ $script.RelPermalink }}" defer></script>
+{{/* $opts := dict "minify" hugo.IsProduction */}}
+{{/* $script := resources.Get "ts/main.ts" | js.Build $opts */}}
+<!-- <script type="text/javascript" src="{{ $script.RelPermalink }}" defer></script> -->
 
 {{ with resources.Get "ts/custom.ts" }}
     {{/* Place your custom script in HUGO_SITE_FOLDER/assets/ts/custom.ts */}}

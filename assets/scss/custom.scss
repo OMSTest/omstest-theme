@@ -2,8 +2,9 @@
 
 // Bootstrap
 // ---------------------------------------------------
-@import "bootstrap/scss/functions";
-@import "admin-lte/build/scss/bootstrap-variables";
+@import "../libs/bootstrap/scss/functions";
+
+@import "../libs/admin-lte/build/scss/bootstrap-variables";
 
 // Custom Theme Color START
 $custom-color: #6998d4;
@@ -14,18 +15,18 @@ $theme-colors: map-merge((
 
 // Variables and Mixins
 // ---------------------------------------------------
-@import 'admin-lte/build/scss/variables';
-@import 'admin-lte/build/scss/variables-alt';
-@import 'admin-lte/build/scss/mixins';
+@import '../libs/admin-lte/build/scss/variables';
+@import '../libs/admin-lte/build/scss/variables-alt';
+@import '../libs/admin-lte/build/scss/mixins';
 
-@import 'bootstrap/scss/bootstrap';
+@import '../libs/bootstrap/scss/bootstrap';
 
-@import 'admin-lte/build/scss/parts/core';
-@import 'admin-lte/build/scss/parts/components';
-@import 'admin-lte/build/scss/parts/extra-components';
-@import 'admin-lte/build/scss/parts/pages';
-@import 'admin-lte/build/scss/parts/plugins';
-@import 'admin-lte/build/scss/parts/miscellaneous';
+@import '../libs/admin-lte/build/scss/parts/core';
+@import '../libs/admin-lte/build/scss/parts/components';
+@import '../libs/admin-lte/build/scss/parts/extra-components';
+@import '../libs/admin-lte/build/scss/parts/pages';
+@import '../libs/admin-lte/build/scss/parts/plugins';
+@import '../libs/admin-lte/build/scss/parts/miscellaneous';
 
 // Custom Style START
 .my-custom-style {

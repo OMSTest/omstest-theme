@@ -13,22 +13,15 @@ googleAnalytics = ""
 # This is replaced in go.mod to point to the directory above.
 path="github.com/OMSTest/omstest-theme"
 
-
 [languages.en]
   languageName = "English"
   title = "Example Site"
   weight = 1
 
-[languages.zh-cn]
-  languageName = "中文"
-  title = "演示站点"
+[languages.ca]
+  languageName = "Catal[a"
+  title = "Cat Example Site"
   weight = 2
-
-[languages.ar]
-  languageName = "عربي"
-  languagedirection = "rtl"
-  title = "موقع تجريبي"
-  weight = 3
 
 [permalinks]
   post = "/p/:slug/"

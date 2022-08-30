@@ -1,16 +1,1 @@
-github.com/ColorlibHQ/AdminLTE v3.2.0+incompatible h1:lqhHRD2y7DPoHjvtYnLEbS+6YW1uHQ+huTJ67vp2Rs0=
-github.com/ColorlibHQ/AdminLTE v3.2.0+incompatible/go.mod h1:yAKYVzWN8urHz0GbQtEjXA6WxVIjbDcv2sw12Za2w8k=
-github.com/ColorlibHQ/AdminLTE v3.2.1-0.20220712102124-9510278efd24+incompatible h1:LeIcQ/vR0hVEHEwGgQquoYtCyenAFs5ey+gcmSZQXq0=
-github.com/ColorlibHQ/AdminLTE v3.2.1-0.20220712102124-9510278efd24+incompatible/go.mod h1:yAKYVzWN8urHz0GbQtEjXA6WxVIjbDcv2sw12Za2w8k=
-github.com/twbs/bootstrap v4.6.1+incompatible h1:75PsBfPU1SS65ag0Z3Cq6JNXVAfUNfB0oCLHh9k9Fu8=
-github.com/twbs/bootstrap v4.6.1+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
-github.com/twbs/bootstrap v4.6.2-0.20220712154119-4954ea15fa23+incompatible h1:Exs8Q1afdLuK9M/MlcD5LEFJ3lq5eIs+f7aB5M8y1Pg=
-github.com/twbs/bootstrap v4.6.2-0.20220712154119-4954ea15fa23+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
-github.com/twbs/bootstrap v4.6.2+incompatible h1:TDa+R51BTiy1wEHSYjmqDb8LxNl/zaEjAOpRE9Hwh/o=
-github.com/twbs/bootstrap v4.6.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
-github.com/twbs/bootstrap v5.2.0+incompatible h1:vQ0kzhoIB0GvI21nWFTcuBCVwx9IvK2XvdTHWryVnZc=
-github.com/twbs/bootstrap v5.2.0+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
-github.com/twbs/rfs v8.1.0+incompatible h1:oVwioLeKEj+eoBqzbnnJ1gBRHeodfIiZuVq4hGwpOx8=
-github.com/twbs/rfs v8.1.0+incompatible/go.mod h1:mbMdcvcjCRHHt4qGxZ2creZ2xS7uR1x1xA5b+dYgIzo=
-github.com/twbs/rfs v9.0.6+incompatible h1:3DOokxkQy9KNVZk3HuSKf/L04Bh9X4j0X/q1eYCzWaM=
-github.com/twbs/rfs v9.0.6+incompatible/go.mod h1:mbMdcvcjCRHHt4qGxZ2creZ2xS7uR1x1xA5b+dYgIzo=
+

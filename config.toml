@@ -11,13 +11,8 @@
     target="assets/libs/admin-lte"
 
   [[module.imports.mounts]]
-    source="plugins/bootstrap/js/bootstrap.bundle.min.js.map"
-    target="assets/js/bootstrap.bundle.min.js.map"  
-
-  [[module.imports.mounts]]
     source="plugins/fontawesome-free/webfonts"
     target="static/libs/admin-lte/plugins/fontawesome-free/webfonts"
-
 
 [[module.imports]]
   path = 'github.com/twbs/bootstrap'

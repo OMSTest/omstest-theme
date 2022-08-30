@@ -1,2 +1,3 @@
-import * as AdminLTE from 'admin-lte';
+import 'libs/admin-lte/build/js/AdminLTE';
+
 

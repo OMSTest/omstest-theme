@@ -19,8 +19,8 @@ path="github.com/OMSTest/omstest-theme"
   target = "assets/node_modules"
 
 [[module.mounts]]
-  source = "node_modules/admin-lte"
-  target = "static/node_modules/admin-lte"  
+  source = "node_modules/admin-lte/plugins/fontawesome-free/webfonts"
+  target = "static/node_modules/admin-lte/plugins/fontawesome-free/webfonts"  
 
 [languages.en]
   languageName = "English"

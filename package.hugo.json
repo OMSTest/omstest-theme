@@ -1,0 +1,21 @@
+{
+  "name": "omstest-theme",
+  "version": "1.0.0",
+  "description": "OMSTest Theme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OMSTest/omstest-theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OMSTest/omstest-theme/issues"
+  },
+  "homepage": "https://github.com/OMSTest/omstest-theme#readme",
+  "dependencies": {
+    "admin-lte": "github:ColorlibHQ/AdminLTE"
+  }
+}

@@ -9,7 +9,8 @@
 {{ partial "helper/external" (dict "Context" . "Namespace" "Vibrant") }}
 
 {{ $externals := slice "jquery" }}
-{{ $opts := dict "targetPath" "main.js" "externals" $externals }}
+{{ $shims := dict "jquery" "libs/admin-lte/plugins/jquery/jquery.js" }}
+{{ $opts := dict "targetPath" "main.js" "externals" $externals "shims" $shims }}
 {{ $built := resources.Get "js/main.js" | js.Build $opts }}
 <script type="text/javascript" src="{{ $built.RelPermalink }}" defer></script>
 

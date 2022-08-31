@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}" dir="{{ default `ca` .Language.LanguageDirection }}">
     <head>
-        {{ partial "head/head.html" . }}
-        {{ block "head" . }}{{ end }}
+        {{ partial "_baseof/head/head.html" . }}
+        {{ block "head-custom" . }}{{ end }}
     </head>
     <body class="hold-transition sidebar-mini {{ block `body-class` . }}{{ end }}">
         <!-- Wrapper -->
@@ -231,9 +231,7 @@
         
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
-
             {{ block "main" . }}{{ end }}
-
         </div>
         <!-- /.content-wrapper -->
 
@@ -248,26 +246,17 @@
         </aside>
         <!-- /.control-sidebar -->
 
-
         <!-- Main Footer -->
         <footer class="main-footer">
-            <!-- To the right -->
-            <div class="float-right d-none d-sm-inline">
-            Anything you want
-            </div>
-            <!-- Default to the left -->
-            <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+            {{ partial "_baseof/footer/footer" . }}  
         </footer>
         <!-- /.main-footer -->
 
-        {{ partial "footer/include.html" . }}
-            
         </div>
         <!-- ./wrapper -->
 
         <!-- REQUIRED SCRIPTS -->
-
-        {{/* partial "footer/colorScheme" . */}}
-
+        {{ partialCached "_baseof/scripts/scripts.html" . }}
+    
     </body>
 </html>

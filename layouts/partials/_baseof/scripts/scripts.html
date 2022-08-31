@@ -1,0 +1,13 @@
+
+{{ $script := resources.Get "node_modules/admin-lte/plugins/jquery/jquery.min.js" }}
+<script type="text/javascript" src="{{ $script.RelPermalink }}" defer></script> 
+
+{{ $script := resources.Get "node_modules/admin-lte/plugins/bootstrap/js/bootstrap.bundle.min.js" }}
+<script type="text/javascript" src="{{ $script.RelPermalink }}" defer></script> 
+
+{{ $script := resources.Get "node_modules/admin-lte/dist/js/adminlte.min.js" }}
+<script type="text/javascript" src="{{ $script.RelPermalink }}" defer></script> 
+
+{{ $opts := dict "minify" hugo.IsProduction }}
+{{ $script := resources.Get "ts/main.ts" | js.Build $opts }}
+ <script type="text/javascript" src="{{ $script.RelPermalink }}" defer></script> 

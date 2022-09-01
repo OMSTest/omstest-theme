@@ -10,5 +10,6 @@ cp -R tools/hooks/* .git/hooks/
 npm install
 
 # Install NPM packages in exampleSite
-cd exampleSite
+pushd exampleSite
 npm install
+popd
